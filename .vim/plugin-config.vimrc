@@ -58,3 +58,8 @@ let g:prettier#autoformat = 1
 let g:prettier#config#use_tabs = 'false' 			
 "Numero de espacios para cada indentaciones
 let g:prettier#config#tab_width = 2				
+
+"	Configuracion general
+"Fondo transparente
+hi Normal guibg=NONE ctermbg=NONE
+

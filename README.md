@@ -1,8 +1,8 @@
-# Mi configuración de NeoVim 😎💪🏼.
+# Mi configuración de NeoVim
 
 ## Uso
 
- - Clona este repositorio en .config con el nombre de nvim
+ - Clona este repositorio en .config
 
 ```bash
 git clone https://github.com/LM-Yair/nvim
@@ -12,7 +12,7 @@ git clone https://github.com/LM-Yair/nvim
  - Entra en NeoVim (Apareceran muchos errores) da enter hasta que se quiten los warnings y luego has :PlugInstall
  - Si todo ha ido bien ahora instala las dependencias de [Coc](https://github.com/neoclide/coc.nvim) con :CocInstall <extención>
 
-### Extenciones de Coc recomenados:
+### Extenciones de Coc recomendadas:
  - coc-html
  - coc-css
  - coc-json

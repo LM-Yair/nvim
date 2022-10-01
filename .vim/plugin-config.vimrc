@@ -42,6 +42,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:user_emmet_leader_key='<c-z>'
 
 "	NERDTree
+let g:NERDTreeShowHidden=1
 let g:NERDTreeQuitOnOpen=1
 let g:NERDTreeShowLineNumbers=1
 let g:NERDTreeCascadeSingleChildDir=0

@@ -18,3 +18,4 @@ git clone https://github.com/LM-Yair/nvim
  - coc-json
  - coc-tsserver
  - coc-sh ( bash )
+ - coc-pairs

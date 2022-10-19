@@ -19,8 +19,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 "Muestra una linea guia que resalta la indentación
 Plug 'yggdroot/indentline'
-"Auto Completado de llaves
-Plug 'jiangmiao/auto-pairs'
 "Auto Comentado en linea y en bloques
 Plug 'ddollar/nerdcommenter/'
 "Coloca un signo en la linea que se haya modificado util pata Git

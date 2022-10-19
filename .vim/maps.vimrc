@@ -52,3 +52,9 @@ nmap <leader>vs ysiw
 nmap <leader>vsa yss
 "Desmarca las busquedas hechas Ctrl+d
 nmap <C-d> :nohlsearch<CR>
+
+"	REMAPS
+
+" fix: remap keys to fix bug in Coc selection to auto complete
+" select with TAB
+inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"

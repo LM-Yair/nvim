@@ -1,18 +1,18 @@
 "	Tema y temas recomenados
-colorscheme gruvbox
+" colorscheme gruvbox
 "colorscheme tokyonight
 "colorscheme pink-moon
-"colorscheme onedark
+colorscheme onedark
 
 "	Configuracion sencilla para el tema
 "contrast ( hard ,medium, soft )
-let g:gruvbox_contrast_dark ="hard"
+" let g:gruvbox_contrast_dark ="hard"
 
 "style ( night, storm )
 "let g:tokyonight_style='storm'
 "let g:tokyonight_enable_italic=1
 
-"let g:onedark_termcolors=256 "256
+let g:onedark_termcolors=256 "256
 
 
 let g:vim_json_syntax_conceal = 0
@@ -28,8 +28,8 @@ endif
 
 "	AirLine
 " let g:airline_theme='gruvbox'
-let g:airline_theme='tokyonight'
-"let g:airline_theme='badwolf'
+" let g:airline_theme='tokyonight'
+let g:airline_theme='badwolf'
 "let g:airline_theme='minimalist'
 "	AirLine Config
 "Barra superior-Habilitar o deshabilitar
@@ -53,14 +53,6 @@ let g:NERDTreeDirArrowCollapsible = ''
 "let g:NERDTreeDirArrowExpandable = '►'
 "let g:NERDTreeDirArrowCollapsible = '▼'
 
-"	Prettier
-let g:prettier#autoformat = 1
-"usa tab para las indentaciones o sangrado
-let g:prettier#config#use_tabs = 'false' 			
-"Numero de espacios para cada indentaciones
-let g:prettier#config#tab_width = 2				
-
 "	Configuracion general
 "transparent background
 hi Normal guibg=NONE ctermbg=NONE
-

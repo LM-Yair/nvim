@@ -36,7 +36,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lilydjwg/colorizer'
 "Permite tener iconos en NerdTree
 Plug 'ryanoasis/vim-devicons'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'npm install',
-  \ 'for': ['javascript', 'typescript', 'css','scss', 'json', 'graphql', 'svelte', 'html'] }
+" Plug 'prettier/vim-prettier', {
+"   \ 'do': 'npm install',
+"   \ 'for': ['javascript', 'typescript', 'css','scss', 'json', 'graphql', 'svelte', 'html'] }
 call plug#end()

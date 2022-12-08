@@ -19,3 +19,4 @@ git clone https://github.com/LM-Yair/nvim
  - coc-tsserver
  - coc-sh ( bash )
  - coc-pairs
+ - coc-prettier

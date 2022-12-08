@@ -37,7 +37,7 @@ nmap <silent>gi <Plug>(coc-implementation)
 "Permite ir a las referencias (lista)
 nmap <silent>gr <Plug>(coc-references)
 "Permite saltar entre buffers (Buffer anterior 'buffer past')
-nmap <silent>bp :bp<CR>
+nmap <C-TAB> :bp<CR>
 "Permite saltar entre buffers (Buffer siguiente 'buffer next')
 nmap <silent>bn :bn<CR>
 "Permite saltar entre buffers (borrar Buffer 'buffer delete')
@@ -52,6 +52,8 @@ nmap <leader>vs ysiw
 nmap <leader>vsa yss
 "Desmarca las busquedas hechas Ctrl+d
 nmap <C-d> :nohlsearch<CR>
+"Ejecuta prettier
+nmap <C-p> :CocCommand prettier.forceFormatDocument<CR>
 
 "	REMAPS
 

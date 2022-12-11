@@ -20,3 +20,4 @@ git clone https://github.com/LM-Yair/nvim
  - coc-sh ( bash )
  - coc-pairs
  - coc-prettier
+ - coc-vimlsp ( Auto completado para vimscript )

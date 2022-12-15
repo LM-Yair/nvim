@@ -1,17 +1,9 @@
 "	Tema y temas recomenados
 " colorscheme gruvbox
-"colorscheme tokyonight
-"colorscheme pink-moon
 colorscheme onedark
 
-"	Configuracion sencilla para el tema
 "contrast ( hard ,medium, soft )
 " let g:gruvbox_contrast_dark ="hard"
-
-"style ( night, storm )
-"let g:tokyonight_style='storm'
-"let g:tokyonight_enable_italic=1
-
 let g:onedark_termcolors=256 "256
 
 
@@ -27,10 +19,11 @@ if exists("g:loaded_webdevicons")
 endif
 
 "	AirLine
-" let g:airline_theme='gruvbox'
 " let g:airline_theme='tokyonight'
-let g:airline_theme='badwolf'
+" let g:airline_theme='badwolf'
+let g:airline_theme='ayu_mirage'
 "let g:airline_theme='minimalist'
+
 "	AirLine Config
 "Barra superior-Habilitar o deshabilitar
 let g:airline#extensions#tabline#enabled = 1

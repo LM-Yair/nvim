@@ -2,8 +2,6 @@
 call plug#begin('~/.config/nvim/.vim/plugged')
 "	Temas Descargas
 Plug 'morhetz/gruvbox' 			"Tema gruvbox
-Plug 'sts10/vim-pink-moon'		"Tema pink moon
-Plug 'ghifarit53/tokyonight-vim'	"Tema tokyonight
 Plug 'joshdick/onedark.vim'		"Tema onedark
 "	AirLine
 "Barra inferior

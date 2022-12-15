@@ -10,8 +10,13 @@ let g:onedark_termcolors=256 "256
 let g:vim_json_syntax_conceal = 0
 
 "	vim-devicons
-"Cambia el caracter por defecto cuando no se encuentra ninguna coincidencia
-let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = '#'
+"Cambia el caracter por defecto
+let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = '' " nf-seti-default
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['log'] = '' " nf-cod-github_inverted
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['txt'] = '' " nf-fa-file_text_o
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['md'] = '' " nf-oct-markdown
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['sqlite'] = '' " nf-oct-markdown
 
 "Arreglo del problema de corchetes
 if exists("g:loaded_webdevicons")

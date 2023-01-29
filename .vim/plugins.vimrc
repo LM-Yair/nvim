@@ -21,6 +21,8 @@ Plug 'yggdroot/indentline'
 Plug 'ddollar/nerdcommenter/'
 "Coloca un signo en la linea que se haya modificado util pata Git
 Plug 'mhinz/vim-signify'
+"Color pickervCoolor
+Plug 'KabbAmine/vCoolor.vim'
 "	Emmet
 Plug 'mattn/emmet-vim'
 "Plugin que permite encapsular contenido con () ó {} ó []

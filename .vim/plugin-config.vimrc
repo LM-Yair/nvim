@@ -13,6 +13,8 @@ let g:vim_json_syntax_conceal = 0
 "Cambia el caracter por defecto
 let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = '' " nf-seti-default
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = '' " nf-dev-html5
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['css'] = '' " nf-dev-css3
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['log'] = '' " nf-cod-github_inverted
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['txt'] = '' " nf-fa-file_text_o
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['md'] = '' " nf-oct-markdown
